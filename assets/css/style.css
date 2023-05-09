@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #444444;
 }
 
@@ -399,6 +399,12 @@ h6 {
 
   #hero .hero-img img {
     width: 80%;
+  }
+}
+
+@media (max-width: 1010px) {
+  #hero .hero-img img {
+    display: none;
   }
 }
 
